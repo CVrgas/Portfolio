@@ -1,0 +1,40 @@
+main {
+	min-width: 0;
+}
+main hr {
+	border: 1px solid var(--low-contrast-color);
+	margin: 1rem 0;
+	/* border-slate-600 my-8 md:my-16 */
+}
+.about {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.about img {
+	max-width: 300px;
+	border-radius: 50%;
+	margin: auto;
+	border: 1px solid black;
+}
+.about .aboutText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.about .aboutText h1 {
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+}
+.about .aboutText p {
+	margin: 0;
+	margin-bottom: 2rem;
+	font-size: 1.5rem;
+}
+
+.about .aboutLinks {
+	display: flex;
+	gap: 1.5rem;
+	font-size: 2.5rem;
+}
