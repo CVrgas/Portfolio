@@ -75,37 +75,7 @@ function Main() {
 			<hr />
 
 			{/* Experience */}
-			{/* <div className="m-2 md:m-auto">
-				<h1 className="mb-4 text-3xl font-bold ">Experience</h1>
-				<ol className="relative border-s border-gray-700">
-					<li className="mb-10 ms-4">
-						<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-						<time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-							September 2023
-						</time>
-						<h3 className="text-lg font-semibold text-gray-900">
-							Fullstack Software Developer
-						</h3>
-						<p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-							at{" "}
-							<a
-								href="https://harwes.io/"
-								className="underline"
-							>
-								Harwes
-							</a>
-						</p>
-					</li>
-					<li className="mb-10 ms-4">
-						<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-						<time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-							Today
-						</time>
-					</li>
-				</ol>
-			</div> */}
 			<Timeline />
-
 			<hr className="border-slate-600 my-16" />
 
 			{/* Projects */}
@@ -127,25 +97,29 @@ function Main() {
 			<hr className="border-slate-600 my-16" />
 
 			{/* Contact me */}
-			<div className="m-2 md:m-auto">
-				<h1 className="mb-4 font-bold text-3xl">Contact me</h1>
-				<form
-					action=""
-					className="grid grid-cols-1 md:grid-cols-3 border-slate-950 h-48 gap-2"
-				>
-					<textarea
-						name=""
-						id=""
-						cols={30}
-						rows={10}
-						placeholder="Enter Message"
-						className="grow border border-slate-400 p-1 bg-emerald-50 resize-none col-span-2"
-					></textarea>
-					<button
-						type="button"
-						className="fa-solid fa-arrow-right px-6 text-xl rounded-md bg-amber-300 hover:bg-amber-400"
-					></button>
-				</form>
+
+			<div className={styles.contact}>
+				<h2>Contact Information</h2>
+				<div>
+					{/* <span>Email:</span> */}
+					<i className="fa-solid fa-envelope"></i>
+					<a href="mailto:cristianvargasa389@gmail.com">
+						cristianvargasa389@gmail.com
+					</a>
+				</div>
+				<div>
+					{/* <span>LinkedIn:</span> */}
+					<i className="fa-brands fa-linkedin-in"></i>
+					<a href="https://linkedin.com/in/cristian-vargas-844903257">
+						linkedin.com/in/cristian-vargas-844903257
+					</a>
+				</div>
+
+				<div>
+					{/* <span>GitHub:</span> */}
+					<i className="fa-brands fa-github-alt"></i>
+					<a href="https://github.com/CVrgas/">github.com/CVrgas</a>
+				</div>
 			</div>
 			<hr className="border-slate-100 my-8" />
 		</main>
