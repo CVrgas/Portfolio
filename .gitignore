@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE and OS files
+.idea/
+desktop.ini
+
+# Personal files
+Cristian Vargas .NET CV.md
+
+# AI Assistant files
+AGENTS.md
+CLAUDE.md
